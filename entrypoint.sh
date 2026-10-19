@@ -43,5 +43,6 @@ done
 echo "[nocodb-entrypoint] database reachable"
 
 echo "[nocodb-entrypoint] starting NocoDB (foreground)"
-cd /usr/src/app
-exec node docker/main.js
+# Exec the upstream start script (same as the stock image CMD) — it knows
+# the internal layout; we only added DB wiring + the readiness wait above.
+exec /usr/src/appEntry/start.sh
