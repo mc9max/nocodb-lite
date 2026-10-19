@@ -1,6 +1,6 @@
 # Deploy and Host
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/nocodb-1?utm_campaign=nocodb-lite)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/nocodb-3?utm_campaign=nocodb-lite)
 
 **NocoDB** — the open-source Airtable alternative. Turn Postgres into smart spreadsheets with grid, kanban, form, gallery and calendar views, plus auto-generated REST and MCP APIs. Deploys with a Postgres companion in one click, zero form fields.
 
